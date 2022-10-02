@@ -5,8 +5,8 @@ syntax enable                                       " enable syntax processing
 set bg=dark                                         " enable dark mode
 " }}}
 " Spaces & Tabs {{{
-set tabstop=4           " number of visual spaces per TAB
-set softtabstop=4       " number of spaces in tab when editing
+set tabstop=2           " number of visual spaces per TAB
+set softtabstop=2       " number of spaces in tab when editing
 set expandtab           " tabs are spaces
 set modelines=1
 " }}}
