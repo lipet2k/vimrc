@@ -1,14 +1,12 @@
 " Colors {{{
-let g:gruvbox_contrast_dark  = 'hard'               " dark contrast mode
-autocmd vimenter * ++nested colorscheme gruvbox     " awesome color scheme
 syntax enable                                       " enable syntax processing
-set bg=dark                                         " enable dark mode
+set bg=light                                         " enable light mode
 " }}}
 " Spaces & Tabs {{{
-set tabstop=2           " number of visual spaces per TAB
-set softtabstop=2       " number of spaces in tab when editing
+set tabstop=4           " number of visual spaces per TAB
 set expandtab           " tabs are spaces
 set modelines=1
+set shiftwidth=4        " indent width
 " }}}
 " UI Layout {{{
 set number              " show line numbers
