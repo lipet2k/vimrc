@@ -52,5 +52,16 @@ function! <SID>StripTrailingWhitespaces()
     call cursor(l, c)
 endfunction
 " }}}
+" Plugins {{{
+call plug#begin()
+
+" Auto-pairs plugin
+Plug('jiangmiao/auto-pairs')
+
+" Commenting plugin
+Plug('tpope/vim-commentary')
+
+call plug#end()
+" }}}
 
 " vim:foldmethod=marker:foldlevel=0
